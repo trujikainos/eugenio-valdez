@@ -22,14 +22,18 @@
 <meta property="og:url" content="https://eugeniovaldez.com/">
 <meta property="og:title" content="Eugenio Valdez — Música Cristiana y Adoración">
 <meta property="og:description" content="Adoración que nace de momentos de entrega. Escucha «Ovejas Mías» y toda su música.">
-<meta property="og:image" content="https://eugeniovaldez.com/assets/retrato.jpg">
-<meta property="og:image:alt" content="Eugenio Valdez, cantante de música cristiana">
+<meta property="og:image" content="https://eugeniovaldez.com/assets/og-image.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:type" content="image/jpeg">
+<meta property="og:image:alt" content="Eugenio Valdez — Música Cristiana y Adoración">
 
 <!-- Twitter Card -->
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="Eugenio Valdez — Música Cristiana y Adoración">
 <meta name="twitter:description" content="Adoración que nace de momentos de entrega. Escucha «Ovejas Mías» y toda su música.">
-<meta name="twitter:image" content="https://eugeniovaldez.com/assets/retrato.jpg">
+<meta name="twitter:image" content="https://eugeniovaldez.com/assets/og-image.jpg">
+<meta name="twitter:image:alt" content="Eugenio Valdez — Música Cristiana y Adoración">
 
 <link rel="preload" as="image" href="assets/hero.jpg" fetchpriority="high">
 
@@ -48,10 +52,17 @@
       "@type": "MusicGroup",
       "@id": "https://eugeniovaldez.com/#artist",
       "name": "Eugenio Valdez",
+      "alternateName": "Eugenio Valdez Music",
       "url": "https://eugeniovaldez.com/",
-      "image": "https://eugeniovaldez.com/assets/retrato.jpg",
-      "genre": ["Música cristiana", "Adoración", "Worship", "Christian music"],
+      "mainEntityOfPage": "https://eugeniovaldez.com/",
+      "image": [
+        "https://eugeniovaldez.com/assets/og-image.jpg",
+        "https://eugeniovaldez.com/assets/hero.jpg",
+        "https://eugeniovaldez.com/assets/retrato.jpg"
+      ],
+      "genre": ["Música cristiana", "Adoración", "Worship", "Christian music", "Música cristiana en español"],
       "description": "Eugenio Valdez es un cantante y compositor de música cristiana. Su adoración nace de momentos de entrega y de encuentros con Dios en lo profundo, con el deseo de que quien la escuche experimente Su presencia, Su paz y Su amor.",
+      "foundingLocation": { "@type": "Country", "name": "México" },
       "sameAs": [
         "https://open.spotify.com/artist/5Zt6VIAnP2hVRIe5eLbY5l",
         "https://music.apple.com/mx/artist/eugenio-valdez/6775956547",
@@ -62,14 +73,19 @@
         "https://www.facebook.com/share/1CHqi1dq4r/"
       ],
       "track": [
-        { "@type": "MusicRecording", "name": "Ovejas Mías", "byArtist": {"@id": "https://eugeniovaldez.com/#artist"}, "url": "https://open.spotify.com/track/0jfo7PZZu04Z69QBVEc0YS", "datePublished": "2026" },
-        { "@type": "MusicRecording", "name": "Jesús es Mi Señor", "byArtist": {"@id": "https://eugeniovaldez.com/#artist"}, "datePublished": "2026" },
-        { "@type": "MusicRecording", "name": "Yo Elijo a Dios", "byArtist": {"@id": "https://eugeniovaldez.com/#artist"}, "datePublished": "2026" },
-        { "@type": "MusicRecording", "name": "Desde Mi Interior / Hosanna", "byArtist": {"@id": "https://eugeniovaldez.com/#artist"}, "datePublished": "2025" },
-        { "@type": "MusicRecording", "name": "Sana Nuestra Tierra", "byArtist": {"@id": "https://eugeniovaldez.com/#artist"}, "datePublished": "2025" },
-        { "@type": "MusicRecording", "name": "Otra Vez", "byArtist": {"@id": "https://eugeniovaldez.com/#artist"}, "datePublished": "2025" },
-        { "@type": "MusicRecording", "name": "Hard Fought Hallelujah (Versión Español)", "byArtist": {"@id": "https://eugeniovaldez.com/#artist"}, "datePublished": "2025" },
-        { "@type": "MusicRecording", "name": "Nadie Como Tú", "byArtist": {"@id": "https://eugeniovaldez.com/#artist"}, "datePublished": "2024" }
+        { "@type": "MusicRecording", "@id": "https://eugeniovaldez.com/#track-ovejas-mias", "name": "Ovejas Mías", "byArtist": { "@id": "https://eugeniovaldez.com/#artist" }, "url": "https://open.spotify.com/track/0jfo7PZZu04Z69QBVEc0YS", "inLanguage": "es", "datePublished": "2026" },
+        { "@type": "MusicRecording", "name": "Jesús es Mi Señor", "byArtist": { "@id": "https://eugeniovaldez.com/#artist" }, "inLanguage": "es", "datePublished": "2026" },
+        { "@type": "MusicRecording", "name": "Yo Elijo a Dios", "byArtist": { "@id": "https://eugeniovaldez.com/#artist" }, "inLanguage": "es", "datePublished": "2026" },
+        { "@type": "MusicRecording", "name": "Desde Mi Interior / Hosanna", "byArtist": { "@id": "https://eugeniovaldez.com/#artist" }, "inLanguage": "es", "datePublished": "2025" },
+        { "@type": "MusicRecording", "name": "Sana Nuestra Tierra", "byArtist": { "@id": "https://eugeniovaldez.com/#artist" }, "inLanguage": "es", "datePublished": "2025" },
+        { "@type": "MusicRecording", "name": "Otra Vez", "byArtist": { "@id": "https://eugeniovaldez.com/#artist" }, "inLanguage": "es", "datePublished": "2025" },
+        { "@type": "MusicRecording", "name": "Hard Fought Hallelujah (Versión Español)", "byArtist": { "@id": "https://eugeniovaldez.com/#artist" }, "inLanguage": "es", "datePublished": "2025" },
+        { "@type": "MusicRecording", "name": "Nadie Como Tú", "byArtist": { "@id": "https://eugeniovaldez.com/#artist" }, "inLanguage": "es", "datePublished": "2024" }
+      ],
+      "album": [
+        { "@type": "MusicAlbum", "name": "Ovejas Mías", "albumReleaseType": "https://schema.org/SingleRelease", "byArtist": { "@id": "https://eugeniovaldez.com/#artist" }, "numTracks": 1, "datePublished": "2026" },
+        { "@type": "MusicAlbum", "name": "Jesús es Mi Señor", "albumReleaseType": "https://schema.org/SingleRelease", "byArtist": { "@id": "https://eugeniovaldez.com/#artist" }, "numTracks": 1, "datePublished": "2026" },
+        { "@type": "MusicAlbum", "name": "Yo Elijo a Dios", "albumReleaseType": "https://schema.org/SingleRelease", "byArtist": { "@id": "https://eugeniovaldez.com/#artist" }, "numTracks": 1, "datePublished": "2026" }
       ]
     },
     {
@@ -78,7 +94,24 @@
       "url": "https://eugeniovaldez.com/",
       "name": "Eugenio Valdez",
       "inLanguage": "es",
-      "about": {"@id": "https://eugeniovaldez.com/#artist"}
+      "publisher": { "@id": "https://eugeniovaldez.com/#artist" },
+      "about": { "@id": "https://eugeniovaldez.com/#artist" }
+    },
+    {
+      "@type": "ProfilePage",
+      "@id": "https://eugeniovaldez.com/#webpage",
+      "url": "https://eugeniovaldez.com/",
+      "name": "Eugenio Valdez — Música Cristiana y Adoración",
+      "isPartOf": { "@id": "https://eugeniovaldez.com/#website" },
+      "about": { "@id": "https://eugeniovaldez.com/#artist" },
+      "mainEntity": { "@id": "https://eugeniovaldez.com/#artist" },
+      "primaryImageOfPage": {
+        "@type": "ImageObject",
+        "url": "https://eugeniovaldez.com/assets/og-image.jpg",
+        "width": 1200,
+        "height": 630
+      },
+      "inLanguage": "es"
     }
   ]
 }
