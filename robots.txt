@@ -1,0 +1,32 @@
+# robots.txt — eugeniovaldez.com
+# Acceso abierto a buscadores tradicionales
+User-agent: *
+Allow: /
+
+# Bots de búsqueda / citación con IA (visibilidad en respuestas de IA)
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: Claude-SearchBot
+Allow: /
+
+User-agent: Claude-User
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+# Bots de entrenamiento (permitidos para máxima exposición; cámbialo a Disallow si no lo deseas)
+User-agent: GPTBot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+Sitemap: https://eugeniovaldez.com/sitemap.xml
